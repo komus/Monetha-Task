@@ -11,7 +11,7 @@ data = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],['A5', 10], ['A6', 22], ['A
 print(f"There are {len(data)} number of sites in the list")
 
 ##How many birds were counted at the 7th site?
-print(f"The number of birds counted at the 7th sight is  {data[6][1]}")
+print(f"The number of birds counted at the 7th site is  {data[6][1]}")
 
 ##How many birds were counted at the last site?
 print(f"There are birds {data[-1][1]} birds counted at the last site {data[-1][0]}")
