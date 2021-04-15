@@ -1,5 +1,7 @@
-##Komolafe Oyindolapo 
-## Beginner
+"""
+    Monetha Basic Task
+    Author: Komolafe Oyindolapo
+"""
 
 data = [['A1', 28], ['A2', 32], ['A3', 1], ['A4', 0],['A5', 10], ['A6', 22], ['A7', 30], ['A8', 19],
 ['B1', 145], ['B2', 27], ['B3', 36], ['B4', 25],['B5', 9], ['B6', 38], ['B7', 21], ['B8', 12],['C1', 122],
