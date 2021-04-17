@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9848ca91-3b80-4057-9f08-79b15136e5a1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Advanced_Monetha_Solution.py</StartupFile>
+    <StartupFile>Monetha_Task_Intermediate.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,9 +21,6 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Advanced_Monetha_Solution.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Monetha_Task_Basic.py" />
     <Compile Include="Monetha_Task_Intermediate.py">
       <SubType>Code</SubType>
