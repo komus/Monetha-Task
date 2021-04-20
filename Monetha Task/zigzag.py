@@ -30,7 +30,7 @@ def centuryFromYear(year):
         cent += 1
     return cent
 
-print(centuryFromYear(2005))
+
 
 
 def checkPalindrome(inputString):
@@ -46,4 +46,11 @@ def adjacentElementsProduct(inputArray):
     return max(v)  
 
 
+def shapeArea(n):
+    if n == 1:
+        return 1
+    else:
+        return (n*n) + ((n-1)*(n-1))
+
+print(shapeArea(5))
 
