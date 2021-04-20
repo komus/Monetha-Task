@@ -52,5 +52,12 @@ def shapeArea(n):
     else:
         return (n*n) + ((n-1)*(n-1))
 
-print(shapeArea(5))
+def makeArrayConsecutive2(statues):
+    f = list(range(min(statues), max(statues), 1) )
+    main_list = list(set(f) - set(statues))
+    return len(main_list)
+
+
+
+#print(makeArrayConsecutive2([6, 2, 3, 8]))
 
