@@ -41,5 +41,9 @@ def checkPalindrome(inputString):
     else:
         return False
 
+def adjacentElementsProduct(inputArray):
+    v = [inputArray[i+1] * inputArray[i] for i in range(len(inputArray)-1)]       
+    return max(v)  
+
 
 
