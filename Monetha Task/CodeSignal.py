@@ -60,4 +60,21 @@ def makeArrayConsecutive2(statues):
 
 
 #print(makeArrayConsecutive2([6, 2, 3, 8]))
+def almostIncreasingSequence(sequence):
+    s = [sequence[i+1] - sequence[i] for i in range(len(sequence)-1)]
+
+    
+    if len(s) == 1:
+        return True
+    else:
+        val = sum(map(lambda x : x != 1, s))
+        ff = sum(s)
+        print(s)
+        print(ff)
+        if val == 1:
+            return True
+        else:
+            return False
+
+print(almostIncreasingSequence([1, 2, 3, 4, 5, 3, 5, 6]))
 
